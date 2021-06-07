@@ -280,7 +280,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
                 <div class="-center -padding-64">
     <span class="-xlarge -bottombar -border-dark-grey -padding-16">Want to volunteer?</span>
   </div>
-                <form >
+                <form>
                 <div class="form-row">
                     <div class="form-group col-md-6">
                       <label for="fname"><strong>First Name</strong></label>
@@ -337,7 +337,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <span class="-xlarge -bottombar -border-dark-grey -padding-16">Contact Us</span>
   </div>
 <div>
-  <form class="-container" action="/action_page.php" target="_blank">
+  <form class="-container" target="_blank">
     <div class="-section">
       <label>Name</label>
       <input class="-input -border -hover-border-black" style="width:100%;" type="text" name="Name" required>
@@ -354,7 +354,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <label>Message</label>
       <input class="-input -border -hover-border-black" style="width:100%;" name="Message" required>
     </div>
-    <button type="submit" class="-button -block -black">Send</button>
+    <button type="submit" class="-button -block -black" onclick="return confirm('Are you sure?')">Send</button>
   </form>
 </div>
 <div> <h1>  </h1></div>
